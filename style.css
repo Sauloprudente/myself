@@ -1,0 +1,92 @@
+div{
+    border-radius: 5px;
+    font-family: Verdana, sans-serif;
+}
+#header {
+	z-index: 1;
+	position: fixed;
+	width: 99%;
+	margin-top: -20px;
+	height: 60px;
+	background-color: #dcedcf;
+	margin-bottom: 10px;
+	text-align: center;
+	color: black;
+	box-shadow: 0px 2px 15px 0px black;
+	
+}
+h1, h2, p{
+    position: relative;
+    margin-left: 50px;
+    
+}
+#header p{
+    float: right;
+    font-size:12px;
+    margin-right: 10px;
+    
+   
+}
+#header h2{
+    
+    float:left;
+    text-shadow: 2px 2px 0px 0px black;
+}
+.right p {
+    position: relative;
+    margin-left: 60px;
+}
+
+.left {
+	position: fixed;
+	float: left;
+	margin-top: 42px;
+	width: 20%;
+	height: 1000px;
+	background-color: #f8f5ef;
+	margin-bottom: 2px;
+	border-radius: 5px 0px 0px 0px;
+	font-size: 20px;
+}
+
+
+.right {
+	position: relative;
+	float: right;
+	margin-top: 42px;
+	width: 80%;
+	height: 1000px;
+	background-color: #f8f5ef;
+	margin-bottom: 2px;
+	border-radius: 0px 5px 0px 0px;
+}
+
+#footer {
+	position: relative;
+	height: 35px;
+	background-color: #668284;
+	clear: both;
+    border-radius: 0px 0px 5px 5px;
+	font-size: 14px;
+	text-align: center;
+	color: #ffffff;
+}
+.icon{
+    float: right;
+    position: relative;
+    margin-bottom: 5px;
+    padding: 1px;
+    -webkit-filter: drop-shadow(5px 5px 5px 5px black);
+    -moz-filter: drop-shadow(5px 5px 5px 5px black);
+     filter: drop-shadow(5px 5px 5px 5px black);  
+}
+#footer p{
+    float: left;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.right ul{
+    margin-left: 60px;
+}
